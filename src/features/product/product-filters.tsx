@@ -4,7 +4,6 @@ import { Search, Plus } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { ThemeToggle } from "@/components/theme-toggle"
 import { useProductStore } from "@/store/product-store"
 import { MultiSortPopover } from "./multi-sort-popover"
 

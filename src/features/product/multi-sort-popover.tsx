@@ -111,7 +111,7 @@ export function MultiSortPopover() {
                   <div className="flex gap-1">
                     
                     <Button
-                      variant={isActive ? "primary" : "ghost"}
+                      variant={isActive ? "default" : "ghost"}
                       size="sm"
                       onClick={() => handleAddSort(field.field, "asc")}
                       className="h-7 px-2 text-xs"
@@ -121,7 +121,7 @@ export function MultiSortPopover() {
                       Asc
                     </Button>
                     <Button
-                      variant={isActive ? "primary" : "ghost"}
+                      variant={isActive ? "default" : "ghost"}
                       size="sm"
                       onClick={() => handleAddSort(field.field, "desc")}
                       className="h-7 px-2 text-xs"

@@ -30,7 +30,7 @@ A modern, responsive React + TypeScript application for managing seller products
 ```
 src/
 ├── components/          # Reusable UI components
-│   ├── ui/             # shadcn/ui components
+│   ├── ui/             # Radix UI components
 │   ├── navbar.tsx      # Navigation bar
 │   ├── theme-provider.tsx
 │   └── theme-toggle.tsx
@@ -39,6 +39,7 @@ src/
 │   ├── product-grid.tsx
 │   ├── product-filters.tsx
 │   ├── product-skeleton.tsx
+│   ├── multi-sort-popover.tsx
 │   └── add-product-modal.tsx
 ├── hooks/              # Custom React hooks
 │   ├── use-products.ts
@@ -62,7 +63,7 @@ src/
 ### Prerequisites
 
 - Node.js 18+ 
-- npm or yarn
+- npm or yarn or bun 
 
 ### Installation
 
